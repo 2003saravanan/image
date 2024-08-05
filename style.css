@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   border: solid skyblue 5px;
+   background-color:aquamarine;
+   padding: 10px;
+}
+
+.title h1{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title button{
+    border: 1px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.line{
+    width: 40%;
+    height: 5px;
+   border-bottom: solid black 5px;
+}
+.image{
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.image__container{
+    flex-grow: 1;
+    flex-basis: 20%;
+    text-align: center;
+    
+}
+.image__container img{
+    margin-top: 10px;
+    border: solid black;
+    
+}
